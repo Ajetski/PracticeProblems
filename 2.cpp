@@ -1,3 +1,8 @@
+/*
+* Author: Adam Jeniski
+* Problem: 2. Print the least-significant digit of any non-negative whole number the user supplies.
+*/
+
 #include <iostream>
 
 void lsdUnchecked(const unsigned long long&);

@@ -1,14 +1,19 @@
+/*
+* Author: Adam Jeniski
+* Problem: 3. Print the balance (not the interest) accrued on a deposit d in n years at annual interest rate r.
+*/
+
 #include <iostream>
 
-void calculateBalance(double blance, double r, long long n);
+void calculateBalance(double d, double r, long long n);
 double exp(double base, long long power);
 
 int main() {
 	calculateBalance(100, .05, 5);
 }
 
-void calculateBalance(double blance, double r, long long n) {
-	std::cout << blance * exp(1 + r, n) << "\n";
+void calculateBalance(double d, double r, long long n) {
+	std::cout << d * exp(1 + r, n) << "\n";
 }
 
 double exp(double base, long long power) {

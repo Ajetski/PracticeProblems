@@ -1,3 +1,8 @@
+/*
+* Author: Adam Jeniski
+* Problem: 1. Print the sum of any two user-supplied numbers a and b
+*/
+
 #include <iostream>
 
 void sum(double, double);
@@ -9,7 +14,6 @@ int main() {
 	sum(1.2 , -1.4);
 	sum(0, 10.756);
 	sum(-1242, 0);
-
 }
 
 void sum(double a, double b) {
